@@ -9,7 +9,7 @@ export default function TestimonialsCard({ name, children, img, className = "" }
             <header className="flex items-center gap-6">
                 <img src={img} alt={name} className="w-10 h-10 rounded-full" />
                 <div>
-                    <h4 className="font-bold leading-none">{name}</h4>
+                    <h3 className="font-bold leading-none">{name}</h3>
                     <span className="text-primary-pink font-medium">Verified Buyer</span>
                 </div>
             </header>
